@@ -1,7 +1,7 @@
 <script setup lang="ts">
-  import { Button } from '@/components/ui/button'
-  import { Input } from '@/components/ui/input'
-  import { Label } from '@/components/ui/label'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
 </script>
 
 <template>
@@ -9,7 +9,9 @@
     <div class="flex items-center justify-center py-12">
       <div class="mx-auto grid w-[350px] gap-6">
         <div class="grid gap-2 text-center">
-          <h1 class="text-3xl font-bold">Login</h1>
+          <h1 class="text-3xl font-bold">
+            Login
+          </h1>
           <p class="text-balance text-muted-foreground">
             Enter your email below to login to your account
           </p>
@@ -36,8 +38,12 @@
             </div>
             <Input id="password" type="password" required />
           </div>
-          <Button type="submit" class="w-full"> Login </Button>
-          <Button variant="outline" class="w-full"> Login with Google </Button>
+          <Button type="submit" class="w-full">
+            Login
+          </Button>
+          <Button variant="outline" class="w-full">
+            Login with Google
+          </Button>
         </div>
         <div class="mt-4 text-center text-sm">
           Don't have an account?
@@ -50,7 +56,7 @@
         src="https://res.cloudinary.com/db2cje7en/image/upload/v1721117431/Credit_Card_Payments_sz7edm.svg"
         alt="Image"
         class="object-cover h-full dark:brightness-[0.2] dark:grayscale"
-      />
+      >
     </div>
   </div>
 </template>
