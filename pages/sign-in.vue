@@ -29,12 +29,12 @@ import { Label } from '@/components/ui/label'
           <div class="grid gap-2">
             <div class="flex items-center">
               <Label for="password">Password</Label>
-              <a
-                href="/forgot-password"
+              <NuxtLink
+                to="/forgot-password"
                 class="ml-auto inline-block text-sm underline"
               >
                 Forgot your password?
-              </a>
+              </NuxtLink>
             </div>
             <Input id="password" type="password" required />
           </div>
@@ -47,7 +47,9 @@ import { Label } from '@/components/ui/label'
         </div>
         <div class="mt-4 text-center text-sm">
           Don't have an account?
-          <a href="#" class="underline"> Sign up </a>
+          <NuxtLink to="#" class="underline">
+            Sign up
+          </NuxtLink>
         </div>
       </div>
     </div>
