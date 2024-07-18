@@ -17,23 +17,23 @@ import {
   <div class="flex min-h-screen w-full flex-col bg-muted/40">
     <aside class="fixed inset-y-0 left-0 z-10 hidden w-14 flex-col border-r bg-background sm:flex">
       <nav class="flex flex-col items-center gap-4 px-2 sm:py-5">
-        <a
-          href="#"
+        <NuxtLink
+          to="#"
           class="group flex h-9 w-9 shrink-0 items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-primary-foreground md:h-8 md:w-8 md:text-base"
         >
           <Package2 class="h-4 w-4 transition-all group-hover:scale-110" />
           <span class="sr-only">Acme Inc</span>
-        </a>
+        </NuxtLink>
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger as-child>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <Home class="h-5 w-5" />
                 <span class="sr-only">Dashboard</span>
-              </a>
+              </NuxtLink>
             </TooltipTrigger>
             <TooltipContent side="right">
               Dashboard
@@ -43,13 +43,13 @@ import {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger as-child>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-accent-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <ShoppingCart class="h-5 w-5" />
                 <span class="sr-only">Orders</span>
-              </a>
+              </NuxtLink>
             </TooltipTrigger>
             <TooltipContent side="right">
               Orders
@@ -60,13 +60,13 @@ import {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger as-child>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <Package class="h-5 w-5" />
                 <span class="sr-only">Products</span>
-              </a>
+              </NuxtLink>
             </TooltipTrigger>
             <TooltipContent side="right">
               Products
@@ -77,13 +77,13 @@ import {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger as-child>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <Users2 class="h-5 w-5" />
                 <span class="sr-only">Customers</span>
-              </a>
+              </NuxtLink>
             </TooltipTrigger>
             <TooltipContent side="right">
               Customers
@@ -94,13 +94,13 @@ import {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger as-child>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <LineChart class="h-5 w-5" />
                 <span class="sr-only">Analytics</span>
-              </a>
+              </NuxtLink>
             </TooltipTrigger>
             <TooltipContent side="right">
               Analytics
@@ -112,13 +112,13 @@ import {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger as-child>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <Settings class="h-5 w-5" />
                 <span class="sr-only">Settings</span>
-              </a>
+              </NuxtLink>
             </TooltipTrigger>
             <TooltipContent side="right">
               Settings
@@ -138,48 +138,48 @@ import {
           </SheetTrigger>
           <SheetContent side="left" class="sm:max-w-xs">
             <nav class="grid gap-6 text-lg font-medium">
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="group flex h-10 w-10 shrink-0 items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-primary-foreground md:text-base"
               >
                 <Package2 class="h-5 w-5 transition-all group-hover:scale-110" />
                 <span class="sr-only">Acme Inc</span>
-              </a>
-              <a
-                href="#"
+              </NuxtLink>
+              <NuxtLink
+                to="#"
                 class="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
               >
                 <Home class="h-5 w-5" />
                 Dashboard
-              </a>
-              <a
-                href="#"
+              </NuxtLink>
+              <NuxtLink
+                to="#"
                 class="flex items-center gap-4 px-2.5 text-foreground"
               >
                 <ShoppingCart class="h-5 w-5" />
                 Orders
-              </a>
-              <a
-                href="#"
+              </NuxtLink>
+              <NuxtLink
+                to="#"
                 class="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
               >
                 <Package class="h-5 w-5" />
                 Products
-              </a>
-              <a
-                href="#"
+              </NuxtLink>
+              <NuxtLink
+                to="#"
                 class="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
               >
                 <Users2 class="h-5 w-5" />
                 Customers
-              </a>
-              <a
-                href="#"
+              </NuxtLink>
+              <NuxtLink
+                to="#"
                 class="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
               >
                 <LineChart class="h-5 w-5" />
                 Settings
-              </a>
+              </NuxtLink>
             </nav>
           </SheetContent>
         </Sheet>
@@ -187,13 +187,17 @@ import {
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink as-child>
-                <a href="#">Dashboard</a>
+                <NuxtLink to="#">
+                  Dashboard
+                </NuxtLink>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink as-child>
-                <a href="#">Orders</a>
+                <NuxtLink to="#">
+                  Orders
+                </NuxtLink>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
