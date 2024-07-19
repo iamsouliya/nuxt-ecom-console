@@ -28,8 +28,9 @@ import {
           <Tooltip>
             <TooltipTrigger as-child>
               <NuxtLink
-                to="#"
-                class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
+                to="/"
+                active-class="bg-accent text-accent-foreground text-black"
+                class="flex h-9 w-9 items-center justify-center text-muted-foreground rounded-lg transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <Home class="h-5 w-5" />
                 <span class="sr-only">Dashboard</span>
@@ -44,8 +45,9 @@ import {
           <Tooltip>
             <TooltipTrigger as-child>
               <NuxtLink
-                to="#"
-                class="flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-accent-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
+                to="/orders"
+                active-class="bg-accent text-accent-foreground text-black"
+                class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <ShoppingCart class="h-5 w-5" />
                 <span class="sr-only">Orders</span>
@@ -61,7 +63,8 @@ import {
           <Tooltip>
             <TooltipTrigger as-child>
               <NuxtLink
-                to="#"
+                active-class="bg-accent text-accent-foreground text-black"
+                to="/products"
                 class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <Package class="h-5 w-5" />
@@ -78,7 +81,8 @@ import {
           <Tooltip>
             <TooltipTrigger as-child>
               <NuxtLink
-                to="#"
+                active-class="bg-accent text-accent-foreground text-black"
+                to="/customers"
                 class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <Users2 class="h-5 w-5" />
@@ -95,7 +99,8 @@ import {
           <Tooltip>
             <TooltipTrigger as-child>
               <NuxtLink
-                to="#"
+                active-class="bg-accent text-accent-foreground text-black"
+                to="/analytics"
                 class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <LineChart class="h-5 w-5" />
@@ -113,8 +118,9 @@ import {
           <Tooltip>
             <TooltipTrigger as-child>
               <NuxtLink
-                to="#"
-                class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
+                active-class="bg-accent text-accent-foreground text-black"
+                to="/setting"
+                class="flex h-9 w-9 items-center justify-center text-muted-foreground rounded-lg transition-colors hover:text-foreground md:h-8 md:w-8"
               >
                 <Settings class="h-5 w-5" />
                 <span class="sr-only">Settings</span>
